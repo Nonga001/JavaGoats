@@ -11,7 +11,7 @@ public class Bmicalc {
 		weight=input.nextInt();
 		System.out.println("Enter your height");
 		height=input.nextDouble();
-		bmi=weight/(height*height);
+		bmi=weight/(height+height);
 		System.out.println("Your BMI is:"+bmi);
 	}
 
